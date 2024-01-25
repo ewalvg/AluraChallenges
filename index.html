@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Encriptador de Texto</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        #result {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid#000;
+        }
+    </style>
+</head>
+<body>
+    <img id="logo" src="logo.png" alt="Logo">
+    <h1>Encriptador de Texto</h1>
+    <textarea id="cajaTexto" placeholder="Introduce el texto aquí"></textarea><br>
+    <button onclick="encriptarTexto();">Encriptar</button>
+    <button onclick="desencriptarTexto();">Desencriptar</button>
+    <textarea id="resultado" readonly>
+</textarea>
+<button onclick="copiarTexto();">Copiar</button>
+    <script src="app.js"></script>
+</body>
+</html>
